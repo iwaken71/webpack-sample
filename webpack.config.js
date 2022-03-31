@@ -1,3 +1,4 @@
 module.exports = {
-  entry: `./src/index.js`,
+  context: __dirname + "/src", 
+  entry: `./index.js`,
 }
